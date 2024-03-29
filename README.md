@@ -1,5 +1,8 @@
 # Breakify
 
+![Breakify App Screenshot](public/screen-shot.png)
+
+
 ## Description
 Breakify is a web application inspired by the iconic "Breaking Bad" series. It transforms people's names into visual styles similar to the show's logo, highlighting elements from the periodic table that match the letters of the provided names.
 
