@@ -1,14 +1,38 @@
-# DO NOT PULL TO THIS REPOSITORY
-### react-challenge
+# Breakify
 
-1. Create a fork of this public repository https://github.com/sebasworkana/react-challenge.git on your own repository, and push it to a branch called react-challenge and then send a PR to your main branch, finally give us access to this github user sebasworkana.
-2. The main challenge is that you create a Page with the following Style and format.
-[![React-Challenge.png](https://i.postimg.cc/nrNG2p2R/React-Challenge.png)](https://postimg.cc/30CGJMPm)
-3. You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name “Highlighting” them as in the image.
-4. First, install “react-redux”, then use the useDispatch and useSelector react-redux hooks in the components.
-5. For this challenge use redux-thunk in it. Moreover, use the react-redux hooks to give a better impression and avoid older techniques. Share data among components without using props.
-6. Is mandatory to use linter like ESLINT
-7. Create npm scripts to run project and make sure to create a readme with instructions to
-run project
-8. Will be valuable if you can create Docker compose file to run all environment
-9. Use github pages to host web app and test
+## Description
+Breakify is a web application inspired by the iconic "Breaking Bad" series. It transforms people's names into visual styles similar to the show's logo, highlighting elements from the periodic table that match the letters of the provided names.
+
+## Getting Started
+
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- Yarn (recommended) or npm
+- Docker (for running the project in containers)
+
+### Cloning the Repository
+To clone the repository and start working on the project, follow these steps:
+
+```bash
+git clone https://github.com/jeandrorc/react-challenge.git
+cd react-challenge
+```
+
+### Running the Project in Development Mode
+After cloning the repository, you can install dependencies and start the project in development mode:
+
+```bash
+yarn install # or npm install, if you're using npm
+yarn start # or npm start, if you're using npm
+```
+
+The project will be available at http://localhost:3000.
+
+### Building and Running the Docker Container
+To build the Docker image of the project and run the container, use Docker Compose with the following command:
+
+```bash
+docker-compose up --build
+```
+Once built, the application will be available at http://localhost:3000.
+
